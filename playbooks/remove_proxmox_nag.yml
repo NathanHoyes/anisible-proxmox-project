@@ -1,0 +1,7 @@
+---
+# Uses Ironic Badger's nag removal role to get rid of the subscription pop-up.
+# More importantly removes their enterprise repos from the apt.
+
+- hosts: pve
+  roles:
+    - proxmox_nag_removal

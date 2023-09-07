@@ -1,0 +1,2 @@
+- src: https://github.com/IronicBadger/ansible-role-proxmox-nag-removal
+  name: proxmox_nag_removal
